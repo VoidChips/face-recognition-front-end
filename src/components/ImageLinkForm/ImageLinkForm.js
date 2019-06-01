@@ -14,7 +14,7 @@ class ImageLinkForm extends React.Component {
                         <input className='f4 pa2 w-70 center' type='text' onChange={this.props.OnInputChange}/>
                         <button
                             className='w-30 grow f4 link ph3 pv2 dib white bg-light-purple'
-                            onClick={this.props.OnButtonSubmit}>Detect
+                            onClick={this.props.OnPictureSubmit}>Detect
                         </button>
                     </div>
                 </div>
